@@ -1,0 +1,54 @@
+# --- Dependencies ---
+node_modules/
+
+# --- Build output ---
+dist/
+build/
+web/dist/
+
+# --- Python ---
+server/venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+*.egg
+
+# --- Database ---
+*.db
+*.sqlite
+*.sqlite3
+
+# --- Environment ---
+.env
+.env.local
+.env.*.local
+
+# --- IDE / Editors ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Coverage ---
+.coverage
+htmlcov/
+coverage/
+
+# --- Misc ---
+*.tgz
+*.tar.gz

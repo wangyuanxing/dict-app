@@ -1,0 +1,13 @@
+{
+  "name": "dict-app-monorepo",
+  "private": true,
+  "workspaces": [
+    "cli",
+    "web"
+  ],
+  "scripts": {
+    "dev:server": "cd server && source venv/bin/activate && python app.py",
+    "dev:web": "cd web && npm run dev",
+    "dev:cli": "node cli/bin/dictapp.js"
+  }
+}
