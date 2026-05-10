@@ -1,3 +1,4 @@
+import httpx
 from openai import OpenAI
 from llm.base import BaseLLMProvider
 from prompts.translation import build_prompt
@@ -5,7 +6,11 @@ from prompts.translation import build_prompt
 
 class OpenAICompatibleProvider(BaseLLMProvider):
     def translate_batch(self, source_lang, target_lang, entries):
-        client = OpenAI(api_key=self.api_key, base_url=self.base_url)
+        client = OpenAI(
+            api_key=self.api_key,
+            base_url=self.base_url,
+            http_client=httpx.Client(proxy=None),
+        )
         system_prompt, user_prompt = build_prompt(source_lang, target_lang, entries)
 
         params = {

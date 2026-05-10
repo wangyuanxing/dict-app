@@ -19,8 +19,9 @@ def upload():
         return jsonify({'error': 'validation', 'message': 'locale is required'}), 400
     if not isinstance(entries, dict):
         return jsonify({'error': 'validation', 'message': 'entries must be a JSON object'}), 400
+
     if not entries:
-        return jsonify({'error': 'validation', 'message': 'entries must not be empty'}), 400
+        return jsonify({'ok': True, 'count': 0})
 
     count = upload_entries(g.project.id, locale, entries)
     return jsonify({'ok': True, 'count': count})
