@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "Retour",
+    "cancel": "Annuler",
+    "close": "Fermer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "loading": "Chargement...",
+    "next": "Suivant",
+    "noData": "Aucune donnée",
+    "ok": "OK",
+    "refresh": "Rafraîchir",
+    "reset": "Réinitialiser",
+    "save": "Enregistrer",
+    "search": "Rechercher",
+    "submit": "Soumettre"
+  },
+  "footer": {
+    "powered": "Propulsé par Dict-App — outil de gestion de traductions i18n"
+  },
+  "form": {
+    "email": "Adresse e-mail",
+    "password": "Mot de passe",
+    "required": "Ce champ est obligatoire",
+    "username": "Nom d'utilisateur"
+  },
+  "nav": {
+    "about": "À propos",
+    "contact": "Contactez-nous",
+    "home": "Accueil",
+    "login": "Connexion",
+    "logout": "Déconnexion",
+    "orders": "Mes commandes",
+    "products": "Produits",
+    "register": "S'inscrire",
+    "settings": "Paramètres"
+  },
+  "notification": {
+    "copySuccess": "Copié dans le presse-papiers",
+    "deleteSuccess": "Suppression réussie",
+    "saveSuccess": "Enregistrement réussi",
+    "title": "Notifications",
+    "updateSuccess": "Mise à jour réussie"
+  },
+  "order": {
+    "cancelOrder": "Annuler la commande",
+    "confirmReceipt": "Confirmer la réception",
+    "createTime": "Date de commande",
+    "orderNo": "Numéro de commande",
+    "status": {
+      "cancelled": "Annulée",
+      "delivered": "Livrée",
+      "pending": "En attente de paiement",
+      "shipped": "Expédiée"
+    },
+    "title": "Mes commandes",
+    "totalAmount": "Montant total"
+  },
+  "product": {
+    "addToCart": "Ajouter au panier",
+    "buyNow": "Acheter maintenant",
+    "description": "Haute qualité, hautes performances, conçu pour les professionnels.",
+    "name1": "Smartphone phare",
+    "name2": "Montre connectée Pro",
+    "name3": "Casque antibruit sans fil",
+    "outOfStock": "Temporairement en rupture de stock",
+    "price": "¥{price}",
+    "stock": "Stock {count} unités",
+    "title": "Liste des produits"
+  },
+  "table": {
+    "total": "Total {total} enregistrements"
+  },
+  "user": {
+    "balance": "Solde du compte",
+    "changePassword": "Modifier le mot de passe",
+    "greeting": "Bonjour, {name}",
+    "profile": "Mon profil",
+    "unreadMessages": "Messages non lus",
+    "welcomeBack": "Bon retour, {name} ! Dernière connexion : {time}"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "رجوع",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "delete": "حذف",
+    "edit": "تعديل",
+    "loading": "جارٍ التحميل...",
+    "next": "التالي",
+    "noData": "لا توجد بيانات",
+    "ok": "موافق",
+    "refresh": "تحديث",
+    "reset": "إعادة تعيين",
+    "save": "حفظ",
+    "search": "بحث",
+    "submit": "إرسال"
+  },
+  "footer": {
+    "powered": "مشغل بواسطة Dict-App — أداة إدارة ترجمة i18n"
+  },
+  "form": {
+    "email": "عنوان البريد الإلكتروني",
+    "password": "كلمة المرور",
+    "required": "هذا الحقل مطلوب",
+    "username": "اسم المستخدم"
+  },
+  "nav": {
+    "about": "معلومات عنا",
+    "contact": "اتصل بنا",
+    "home": "الصفحة الرئيسية",
+    "login": "تسجيل الدخول",
+    "logout": "تسجيل الخروج",
+    "orders": "طلباتي",
+    "products": "المنتجات",
+    "register": "تسجيل",
+    "settings": "الإعدادات"
+  },
+  "notification": {
+    "copySuccess": "تم النسخ إلى الحافظة",
+    "deleteSuccess": "تم الحذف بنجاح",
+    "saveSuccess": "تم الحفظ بنجاح",
+    "title": "إشعارات",
+    "updateSuccess": "تم التحديث بنجاح"
+  },
+  "order": {
+    "cancelOrder": "إلغاء الطلب",
+    "confirmReceipt": "تأكيد الاستلام",
+    "createTime": "وقت الطلب",
+    "orderNo": "رقم الطلب",
+    "status": {
+      "cancelled": "ملغى",
+      "delivered": "تم التوصيل",
+      "pending": "قيد الدفع",
+      "shipped": "تم الشحن"
+    },
+    "title": "طلباتي",
+    "totalAmount": "المبلغ"
+  },
+  "product": {
+    "addToCart": "أضف إلى السلة",
+    "buyNow": "اشتر الآن",
+    "description": "جودة عالية، أداء عالي، مصمم للمستخدمين المحترفين.",
+    "name1": "هاتف ذكي رائد",
+    "name2": "ساعة ذكية Pro",
+    "name3": "سماعات لا سلكية مانعة للضوضاء",
+    "outOfStock": "غير متوفر مؤقتاً",
+    "price": "¥{price}",
+    "stock": "المخزون {count} قطعة",
+    "title": "قائمة المنتجات"
+  },
+  "table": {
+    "total": "إجمالي {total} سجل"
+  },
+  "user": {
+    "balance": "رصيد الحساب",
+    "changePassword": "تغيير كلمة المرور",
+    "greeting": "مرحبًا، {name}",
+    "profile": "الملف الشخصي",
+    "unreadMessages": "رسائل غير مقروءة",
+    "welcomeBack": "مرحبًا بعودتك، {name}! آخر تسجيل دخول: {time}"
+  }
+}

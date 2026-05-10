@@ -17,9 +17,11 @@ export default function LocaleManager() {
   const fetchLocales = async () => {
     try {
       const resp = await client.get(`/projects/${projectId}/locales`);
-      setLocales(resp.data);
-      if (resp.data.length > 0 && !activeLocale) {
-        setActiveLocale(resp.data[0]);
+      const data = resp.data;
+      const list = data.existing || data.locales?.map((l) => l.code) || data || [];
+      setLocales(list);
+      if (list.length > 0 && !activeLocale) {
+        setActiveLocale(list[0]);
       }
     } catch { /* */ }
   };

@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "Indietro",
+    "cancel": "Annulla",
+    "close": "Chiudi",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "loading": "Caricamento in corso...",
+    "next": "Avanti",
+    "noData": "Nessun dato",
+    "ok": "OK",
+    "refresh": "Aggiorna",
+    "reset": "Reimposta",
+    "save": "Salva",
+    "search": "Cerca",
+    "submit": "Invia"
+  },
+  "footer": {
+    "powered": "Powered by Dict-App — strumento di gestione traduzioni i18n"
+  },
+  "form": {
+    "email": "Indirizzo email",
+    "password": "Password",
+    "required": "Campo obbligatorio",
+    "username": "Nome utente"
+  },
+  "nav": {
+    "about": "Chi siamo",
+    "contact": "Contattaci",
+    "home": "Home",
+    "login": "Accedi",
+    "logout": "Esci",
+    "orders": "I miei ordini",
+    "products": "Prodotti",
+    "register": "Registrati",
+    "settings": "Impostazioni"
+  },
+  "notification": {
+    "copySuccess": "Copiato negli appunti",
+    "deleteSuccess": "Eliminato con successo",
+    "saveSuccess": "Salvato con successo",
+    "title": "Notifiche",
+    "updateSuccess": "Aggiornato con successo"
+  },
+  "order": {
+    "cancelOrder": "Annulla ordine",
+    "confirmReceipt": "Conferma ricezione",
+    "createTime": "Data ordine",
+    "orderNo": "Numero ordine",
+    "status": {
+      "cancelled": "Annullato",
+      "delivered": "Consegnato",
+      "pending": "In attesa di pagamento",
+      "shipped": "Spedito"
+    },
+    "title": "I miei ordini",
+    "totalAmount": "Importo"
+  },
+  "product": {
+    "addToCart": "Aggiungi al carrello",
+    "buyNow": "Acquista ora",
+    "description": "Alta qualità, alte prestazioni, progettato per utenti professionisti.",
+    "name1": "Smartphone di punta",
+    "name2": "Smartwatch Pro",
+    "name3": "Cuffie wireless con cancellazione del rumore",
+    "outOfStock": "Temporaneamente esaurito",
+    "price": "¥{price}",
+    "stock": "Disponibilità: {count} pezzi",
+    "title": "Elenco prodotti"
+  },
+  "table": {
+    "total": "Totale {total} record"
+  },
+  "user": {
+    "balance": "Saldo",
+    "changePassword": "Cambia password",
+    "greeting": "Ciao, {name}",
+    "profile": "Profilo",
+    "unreadMessages": "Messaggi non letti",
+    "welcomeBack": "Bentornato, {name}! Ultimo accesso: {time}"
+  }
+}

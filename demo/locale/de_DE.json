@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "Zurück",
+    "cancel": "Abbrechen",
+    "close": "Schließen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "loading": "Lade...",
+    "next": "Weiter",
+    "noData": "Keine Daten",
+    "ok": "OK",
+    "refresh": "Aktualisieren",
+    "reset": "Zurücksetzen",
+    "save": "Speichern",
+    "search": "Suchen",
+    "submit": "Absenden"
+  },
+  "footer": {
+    "powered": "Powered by Dict-App — i18n Übersetzungsverwaltungstool"
+  },
+  "form": {
+    "email": "E-Mail-Adresse",
+    "password": "Passwort",
+    "required": "Dieses Feld ist erforderlich",
+    "username": "Benutzername"
+  },
+  "nav": {
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "home": "Startseite",
+    "login": "Anmelden",
+    "logout": "Abmelden",
+    "orders": "Meine Bestellungen",
+    "products": "Produkte",
+    "register": "Registrieren",
+    "settings": "Einstellungen"
+  },
+  "notification": {
+    "copySuccess": "In die Zwischenablage kopiert",
+    "deleteSuccess": "Erfolgreich gelöscht",
+    "saveSuccess": "Erfolgreich gespeichert",
+    "title": "Benachrichtigungen",
+    "updateSuccess": "Erfolgreich aktualisiert"
+  },
+  "order": {
+    "cancelOrder": "Bestellung stornieren",
+    "confirmReceipt": "Lieferung bestätigen",
+    "createTime": "Bestelldatum",
+    "orderNo": "Bestellnummer",
+    "status": {
+      "cancelled": "Storniert",
+      "delivered": "Zugestellt",
+      "pending": "Ausstehend",
+      "shipped": "Versendet"
+    },
+    "title": "Meine Bestellungen",
+    "totalAmount": "Gesamtbetrag"
+  },
+  "product": {
+    "addToCart": "In den Warenkorb",
+    "buyNow": "Jetzt kaufen",
+    "description": "Hochwertig, leistungsstark, für Profis entwickelt.",
+    "name1": "Flaggschiff-Smartphone",
+    "name2": "Smartwatch Pro",
+    "name3": "Kabellose Noise-Cancelling-Kopfhörer",
+    "outOfStock": "Vorübergehend nicht vorrätig",
+    "price": "¥{price}",
+    "stock": "Lagerbestand: {count} Stück",
+    "title": "Produktliste"
+  },
+  "table": {
+    "total": "Insgesamt {total} Einträge"
+  },
+  "user": {
+    "balance": "Kontostand",
+    "changePassword": "Passwort ändern",
+    "greeting": "Hallo, {name}",
+    "profile": "Profil",
+    "unreadMessages": "Ungelesene Nachrichten",
+    "welcomeBack": "Willkommen zurück, {name}! Letzte Anmeldung: {time}"
+  }
+}

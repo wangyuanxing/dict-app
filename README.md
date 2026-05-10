@@ -100,8 +100,10 @@ Add a `dictapp` section to your frontend project's `package.json`:
 
 ```bash
 # In your frontend project directory
-dictapp upload
-# or: dictapp -u
+dictapp upload         # if installed globally (npm install -g dictapp)
+# or:
+npx dictapp upload     # if installed locally (npm install --save-dev dictapp)
+# shorthand: dictapp -u
 ```
 
 ### 7. Configure LLM and Translate
@@ -117,8 +119,10 @@ dictapp upload
 
 ```bash
 # In your frontend project directory
-dictapp download
-# or: dictapp -d
+dictapp download       # if installed globally (npm install -g dictapp)
+# or:
+npx dictapp download   # if installed locally (npm install --save-dev dictapp)
+# shorthand: dictapp -d
 ```
 
 Your locale files will be updated with the translated content.
@@ -130,7 +134,8 @@ Your locale files will be updated with the translated content.
 Scans the configured `localeDir` for `.json` files, flattens nested structures, and uploads all key-value pairs to the server.
 
 ```bash
-dictapp upload
+dictapp upload           # global install
+npx dictapp upload       # local install
 # Output:
 # Uploaded en_US.json (42 keys)
 # Uploaded zh_CN.json (42 keys)
@@ -142,7 +147,8 @@ dictapp upload
 Downloads all completed translations from the server and writes them as locale files, restoring nested JSON structure.
 
 ```bash
-dictapp download
+dictapp download         # global install
+npx dictapp download     # local install
 # Output:
 # Downloaded en_US.json (42 keys)
 # Downloaded ja_JP.json (42 keys)

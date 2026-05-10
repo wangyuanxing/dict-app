@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "返回",
+    "cancel": "取消",
+    "close": "关闭",
+    "delete": "删除",
+    "edit": "操作",
+    "loading": "加载中...",
+    "next": "下一步",
+    "noData": "暂无数据",
+    "ok": "确定",
+    "refresh": "刷新",
+    "reset": "重置",
+    "save": "保存",
+    "search": "搜索",
+    "submit": "提交"
+  },
+  "footer": {
+    "powered": "Powered by Dict-App — i18n 翻译管理工具"
+  },
+  "form": {
+    "email": "邮箱地址",
+    "password": "密码",
+    "required": "此项为必填项",
+    "username": "用户名"
+  },
+  "nav": {
+    "about": "关于我们",
+    "contact": "联系我们",
+    "home": "首页",
+    "login": "登录",
+    "logout": "退出登录",
+    "orders": "我的订单",
+    "products": "产品中心",
+    "register": "注册",
+    "settings": "设置"
+  },
+  "notification": {
+    "copySuccess": "已复制到剪贴板",
+    "deleteSuccess": "删除成功",
+    "saveSuccess": "保存成功",
+    "title": "消息通知",
+    "updateSuccess": "更新成功"
+  },
+  "order": {
+    "cancelOrder": "取消订单",
+    "confirmReceipt": "确认收货",
+    "createTime": "下单时间",
+    "orderNo": "订单号",
+    "status": {
+      "cancelled": "已取消",
+      "delivered": "已送达",
+      "pending": "待付款",
+      "shipped": "已发货"
+    },
+    "title": "我的订单",
+    "totalAmount": "金额"
+  },
+  "product": {
+    "addToCart": "加入购物车",
+    "buyNow": "立即购买",
+    "description": "高品质、高性能，为专业用户打造。",
+    "name1": "旗舰款智能手机",
+    "name2": "智能手表 Pro",
+    "name3": "无线降噪耳机",
+    "outOfStock": "暂时缺货",
+    "price": "¥{price}",
+    "stock": "库存 {count} 件",
+    "title": "产品列表"
+  },
+  "table": {
+    "total": "共 {total} 条记录"
+  },
+  "user": {
+    "balance": "账户余额",
+    "changePassword": "修改密码",
+    "greeting": "你好，{name}",
+    "profile": "个人中心",
+    "unreadMessages": "未读消息",
+    "welcomeBack": "欢迎回来，{name}！上次登录时间：{time}"
+  }
+}
