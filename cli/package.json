@@ -1,11 +1,33 @@
 {
   "name": "dictapp",
   "version": "1.0.0",
-  "description": "CLI tool for managing i18n translations",
-  "main": "src/index.js",
+  "description": "CLI tool for managing i18n locale files with LLM-powered translation — upload & download multilingual JSON files from the Dict-App server",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wangyuanxing/dict-app.git"
+  },
+  "homepage": "https://github.com/wangyuanxing/dict-app#readme",
+  "keywords": [
+    "i18n",
+    "internationalization",
+    "translation",
+    "locale",
+    "LLM",
+    "CLI",
+    "dict",
+    "localization",
+    "l10n",
+    "multilingual"
+  ],
   "bin": {
     "dictapp": "./bin/dictapp.js"
   },
+  "files": [
+    "bin/",
+    "src/",
+    "README.md"
+  ],
   "dependencies": {
     "axios": "^1.12.2",
     "commander": "^14.0.2"
