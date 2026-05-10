@@ -39,8 +39,13 @@ export default function LLMConfig() {
       .finally(() => setLoading(false));
   }, [projectId]);
 
+  const normalizeValues = (values) => ({
+    ...values,
+    model: Array.isArray(values.model) ? values.model[0] : values.model,
+  });
+
   const handleSave = async () => {
-    const values = await form.validateFields();
+    const values = normalizeValues(await form.validateFields());
     setSaving(true);
     try {
       await client.put(`/projects/${projectId}/llm-config`, values);
@@ -51,7 +56,7 @@ export default function LLMConfig() {
   };
 
   const handleTest = async () => {
-    const values = await form.validateFields();
+    const values = normalizeValues(await form.validateFields());
     setTesting(true);
     try {
       const resp = await client.post(`/projects/${projectId}/llm-config/test`, values);

@@ -31,7 +31,9 @@ export default function TranslationTasks() {
   const fetchLocales = async () => {
     try {
       const resp = await client.get(`/projects/${projectId}/locales`);
-      setLocales(resp.data || []);
+      const data = resp.data;
+      // locales: [{code, label}, ...] — all common locales for dropdown
+      setLocales(data.locales || data || []);
     } catch { /* */ }
   };
 
@@ -111,18 +113,18 @@ export default function TranslationTasks() {
             onChange={setSourceLocale}
             placeholder="Select source language"
             style={{ width: '100%' }}
-            options={locales.map((l) => ({ label: l, value: l }))}
+            options={locales.map((l) => ({ label: `${l.label} (${l.code})`, value: l.code }))}
           />
         </div>
         <div style={{ marginBottom: 16 }}>
           <div style={{ marginBottom: 8 }}>Target Languages</div>
           <Select
-            mode="multiple"
+            mode="tags"
             value={targetLocales}
             onChange={setTargetLocales}
-            placeholder="Select target languages"
+            placeholder="Select or type target languages (e.g. ja_JP)"
             style={{ width: '100%' }}
-            options={locales.filter((l) => l !== sourceLocale).map((l) => ({ label: l, value: l }))}
+            options={locales.filter((l) => l.code !== sourceLocale).map((l) => ({ label: `${l.label} (${l.code})`, value: l.code }))}
           />
         </div>
         <Button type="primary" block onClick={handleCreate}>Start Translation</Button>
