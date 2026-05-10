@@ -100,8 +100,10 @@ npx vite
 
 ```bash
 # 在你的前端项目目录下执行
-dictapp upload
-# 或简写: dictapp -u
+dictapp upload         # 全局安装 (npm install -g dictapp)
+# 或：
+npx dictapp upload     # 本地安装 (npm install --save-dev dictapp)
+# 简写: dictapp -u
 ```
 
 ### 7. 配置大模型并翻译
@@ -117,8 +119,10 @@ dictapp upload
 
 ```bash
 # 在你的前端项目目录下执行
-dictapp download
-# 或简写: dictapp -d
+dictapp download       # 全局安装 (npm install -g dictapp)
+# 或：
+npx dictapp download   # 本地安装 (npm install --save-dev dictapp)
+# 简写: dictapp -d
 ```
 
 翻译完成后的 locale 文件会自动覆盖到你的项目本地目录中。
@@ -130,7 +134,8 @@ dictapp download
 扫描配置的 `localeDir` 目录下所有 `.json` 文件，将嵌套结构扁平化后上传所有键值对到服务端。
 
 ```bash
-dictapp upload
+dictapp upload           # 全局安装
+npx dictapp upload       # 本地安装
 # 输出示例：
 # Uploaded en_US.json (42 keys)
 # Uploaded zh_CN.json (42 keys)
@@ -142,7 +147,8 @@ dictapp upload
 从服务端下载所有已完成的翻译，写入对应的 locale 文件，并还原嵌套 JSON 结构。
 
 ```bash
-dictapp download
+dictapp download         # 全局安装
+npx dictapp download     # 本地安装
 # 输出示例：
 # Downloaded en_US.json (42 keys)
 # Downloaded ja_JP.json (42 keys)

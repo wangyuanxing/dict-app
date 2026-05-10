@@ -16,7 +16,7 @@
     "dict:upload": "dictapp upload",
     "dict:download": "dictapp download",
     "use:local": "cd ../cli && npm link && cd ../demo && npm link dictapp",
-    "use:remote": "npm unlink dictapp && npm install dictapp"
+    "use:remote": "npm unlink dictapp 2>/dev/null; npm install dictapp && cd node_modules/dictapp && npm link"
   },
   "dependencies": {
     "dictapp": "^1.0.0-beta.0",

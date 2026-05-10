@@ -86,7 +86,7 @@ npm run use:local
 npm run use:remote
 ```
 
-`use:local` runs `npm link` so changes to `../cli/src/` are reflected immediately — no rebuild needed.
+After running either command, `dictapp` is available as a global shell command — run `dictapp upload` / `dictapp -u` directly without `npx` or `npm run`.
 
 ## How i18n Works
 
@@ -197,7 +197,7 @@ npm run use:local
 npm run use:remote
 ```
 
-`use:local` 使用 `npm link` 机制，修改 `../cli/src/` 中的代码会即时生效，无需重新构建。
+执行任一命令后，`dictapp` 即作为全局 shell 命令可用——无需 `npx` 或 `npm run`，直接运行 `dictapp upload` / `dictapp -u` 即可。
 
 ### i18n 工作原理
 
