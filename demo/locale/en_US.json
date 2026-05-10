@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "Back",
+    "cancel": "Cancel",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "loading": "Loading...",
+    "next": "Next",
+    "noData": "No data",
+    "ok": "OK",
+    "refresh": "Refresh",
+    "reset": "Reset",
+    "save": "Save",
+    "search": "Search",
+    "submit": "Submit"
+  },
+  "footer": {
+    "powered": "Powered by Dict-App — i18n Translation Management Tool"
+  },
+  "form": {
+    "email": "Email address",
+    "password": "Password",
+    "required": "This field is required",
+    "username": "Username"
+  },
+  "nav": {
+    "about": "About Us",
+    "contact": "Contact Us",
+    "home": "Home",
+    "login": "Login",
+    "logout": "Logout",
+    "orders": "My Orders",
+    "products": "Products",
+    "register": "Register",
+    "settings": "Settings"
+  },
+  "notification": {
+    "copySuccess": "Copied to clipboard",
+    "deleteSuccess": "Delete successful",
+    "saveSuccess": "Save successful",
+    "title": "Notification",
+    "updateSuccess": "Update successful"
+  },
+  "order": {
+    "cancelOrder": "Cancel Order",
+    "confirmReceipt": "Confirm Receipt",
+    "createTime": "Order time",
+    "orderNo": "Order No.",
+    "status": {
+      "cancelled": "Cancelled",
+      "delivered": "Delivered",
+      "pending": "Pending payment",
+      "shipped": "Shipped"
+    },
+    "title": "My Orders",
+    "totalAmount": "Amount"
+  },
+  "product": {
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now",
+    "description": "High quality, high performance, designed for professional users.",
+    "name1": "Flagship Smartphone",
+    "name2": "Smart Watch Pro",
+    "name3": "Wireless Noise-Cancelling Headphones",
+    "outOfStock": "Out of stock",
+    "price": "¥{price}",
+    "stock": "Stock: {count} items",
+    "title": "Product List"
+  },
+  "table": {
+    "total": "Total {total} records"
+  },
+  "user": {
+    "balance": "Account balance",
+    "changePassword": "Change Password",
+    "greeting": "Hello, {name}",
+    "profile": "Profile",
+    "unreadMessages": "Unread messages",
+    "welcomeBack": "Welcome back, {name}! Last login: {time}"
+  }
+}

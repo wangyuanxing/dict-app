@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "뒤로",
+    "cancel": "취소",
+    "close": "닫기",
+    "delete": "삭제",
+    "edit": "편집",
+    "loading": "로딩 중...",
+    "next": "다음",
+    "noData": "데이터 없음",
+    "ok": "확인",
+    "refresh": "새로고침",
+    "reset": "초기화",
+    "save": "저장",
+    "search": "검색",
+    "submit": "제출"
+  },
+  "footer": {
+    "powered": "Powered by Dict-App — i18n 번역 관리 도구"
+  },
+  "form": {
+    "email": "이메일 주소",
+    "password": "비밀번호",
+    "required": "이 항목은 필수입니다",
+    "username": "사용자명"
+  },
+  "nav": {
+    "about": "회사 소개",
+    "contact": "문의하기",
+    "home": "홈",
+    "login": "로그인",
+    "logout": "로그아웃",
+    "orders": "내 주문",
+    "products": "제품",
+    "register": "회원가입",
+    "settings": "설정"
+  },
+  "notification": {
+    "copySuccess": "클립보드에 복사되었습니다",
+    "deleteSuccess": "삭제 성공",
+    "saveSuccess": "저장 성공",
+    "title": "알림",
+    "updateSuccess": "업데이트 성공"
+  },
+  "order": {
+    "cancelOrder": "주문 취소",
+    "confirmReceipt": "수령 확인",
+    "createTime": "주문 시간",
+    "orderNo": "주문 번호",
+    "status": {
+      "cancelled": "취소됨",
+      "delivered": "배송 완료",
+      "pending": "결제 대기",
+      "shipped": "배송 중"
+    },
+    "title": "내 주문",
+    "totalAmount": "금액"
+  },
+  "product": {
+    "addToCart": "장바구니에 담기",
+    "buyNow": "바로 구매",
+    "description": "고품질, 고성능, 전문 사용자를 위한 제품입니다.",
+    "name1": "플래그십 스마트폰",
+    "name2": "스마트워치 Pro",
+    "name3": "무선 노이즈 캔슬링 헤드폰",
+    "outOfStock": "일시 품절",
+    "price": "¥{price}",
+    "stock": "재고 {count}개",
+    "title": "제품 목록"
+  },
+  "table": {
+    "total": "총 {total}개 기록"
+  },
+  "user": {
+    "balance": "계좌 잔액",
+    "changePassword": "비밀번호 변경",
+    "greeting": "안녕하세요, {name}",
+    "profile": "내 정보",
+    "unreadMessages": "읽지 않은 메시지",
+    "welcomeBack": "다시 오신 것을 환영합니다, {name}! 마지막 로그인 시간: {time}"
+  }
+}

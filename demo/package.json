@@ -1,0 +1,33 @@
+{
+  "name": "dictapp-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "dictapp": {
+    "projectId": "910e6f142e1e",
+    "apiKey": "9afad0b0ac7e0db7d33981a50838bdfe",
+    "serverUrl": "http://localhost:5050",
+    "localeDir": "locale"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "dict:upload": "dictapp upload",
+    "dict:download": "dictapp download",
+    "use:local": "cd ../cli && npm link && cd ../demo && npm link dictapp",
+    "use:remote": "npm unlink dictapp && npm install dictapp"
+  },
+  "dependencies": {
+    "dictapp": "^1.0.0-beta.0",
+    "i18next": "^24.2.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "react-i18next": "^15.4.0",
+    "react-router-dom": "^6.28.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.5.2",
+    "vite": "^6.3.0"
+  }
+}

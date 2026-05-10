@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "戻る",
+    "cancel": "キャンセル",
+    "close": "閉じる",
+    "delete": "削除",
+    "edit": "編集",
+    "loading": "読み込み中...",
+    "next": "次へ",
+    "noData": "データなし",
+    "ok": "OK",
+    "refresh": "更新",
+    "reset": "リセット",
+    "save": "保存",
+    "search": "検索",
+    "submit": "送信"
+  },
+  "footer": {
+    "powered": "Powered by Dict-App — i18n 翻訳管理ツール"
+  },
+  "form": {
+    "email": "メールアドレス",
+    "password": "パスワード",
+    "required": "この項目は必須です",
+    "username": "ユーザー名"
+  },
+  "nav": {
+    "about": "私たちについて",
+    "contact": "お問い合わせ",
+    "home": "ホーム",
+    "login": "ログイン",
+    "logout": "ログアウト",
+    "orders": "注文一覧",
+    "products": "製品一覧",
+    "register": "登録",
+    "settings": "設定"
+  },
+  "notification": {
+    "copySuccess": "クリップボードにコピーしました",
+    "deleteSuccess": "削除成功",
+    "saveSuccess": "保存成功",
+    "title": "お知らせ",
+    "updateSuccess": "更新成功"
+  },
+  "order": {
+    "cancelOrder": "注文をキャンセル",
+    "confirmReceipt": "受取を確認",
+    "createTime": "注文時間",
+    "orderNo": "注文番号",
+    "status": {
+      "cancelled": "キャンセル済み",
+      "delivered": "配達完了",
+      "pending": "未払い",
+      "shipped": "発送済み"
+    },
+    "title": "注文一覧",
+    "totalAmount": "金額"
+  },
+  "product": {
+    "addToCart": "カートに入れる",
+    "buyNow": "今すぐ購入",
+    "description": "高品質・高性能、プロフェッショナルユーザー向け。",
+    "name1": "フラグシップスマートフォン",
+    "name2": "スマートウォッチ Pro",
+    "name3": "ワイヤレスノイズキャンセリングヘッドホン",
+    "outOfStock": "在庫切れ",
+    "price": "¥{price}",
+    "stock": "在庫 {count} 個",
+    "title": "製品一覧"
+  },
+  "table": {
+    "total": "全 {total} 件"
+  },
+  "user": {
+    "balance": "アカウント残高",
+    "changePassword": "パスワード変更",
+    "greeting": "こんにちは、{name}",
+    "profile": "マイページ",
+    "unreadMessages": "未読メッセージ",
+    "welcomeBack": "おかえりなさい、{name}！前回のログイン: {time}"
+  }
+}

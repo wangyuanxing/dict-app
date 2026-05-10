@@ -1,0 +1,82 @@
+{
+  "common": {
+    "back": "Terug",
+    "cancel": "Annuleren",
+    "close": "Sluiten",
+    "delete": "Verwijderen",
+    "edit": "Bewerken",
+    "loading": "Laden...",
+    "next": "Volgende",
+    "noData": "Geen gegevens",
+    "ok": "OK",
+    "refresh": "Vernieuwen",
+    "reset": "Resetten",
+    "save": "Opslaan",
+    "search": "Zoeken",
+    "submit": "Verzenden"
+  },
+  "footer": {
+    "powered": "Powered by Dict-App — i18n vertalingsbeheerhulpmiddel"
+  },
+  "form": {
+    "email": "E-mailadres",
+    "password": "Wachtwoord",
+    "required": "Dit veld is verplicht",
+    "username": "Gebruikersnaam"
+  },
+  "nav": {
+    "about": "Over ons",
+    "contact": "Contacteer ons",
+    "home": "Home",
+    "login": "Inloggen",
+    "logout": "Uitloggen",
+    "orders": "Mijn bestellingen",
+    "products": "Producten",
+    "register": "Registreren",
+    "settings": "Instellingen"
+  },
+  "notification": {
+    "copySuccess": "Gekopieerd naar klembord",
+    "deleteSuccess": "Verwijderd",
+    "saveSuccess": "Opgeslagen",
+    "title": "Meldingen",
+    "updateSuccess": "Bijgewerkt"
+  },
+  "order": {
+    "cancelOrder": "Bestelling annuleren",
+    "confirmReceipt": "Ontvangst bevestigen",
+    "createTime": "Besteltijd",
+    "orderNo": "Ordernummer",
+    "status": {
+      "cancelled": "Geannuleerd",
+      "delivered": "Bezorgd",
+      "pending": "In afwachting van betaling",
+      "shipped": "Verzonden"
+    },
+    "title": "Mijn bestellingen",
+    "totalAmount": "Totaalbedrag"
+  },
+  "product": {
+    "addToCart": "Voeg toe aan winkelwagen",
+    "buyNow": "Nu kopen",
+    "description": "Hoge kwaliteit, hoge prestaties, ontworpen voor professionele gebruikers.",
+    "name1": "Vlaggenschip smartphone",
+    "name2": "Smartwatch Pro",
+    "name3": "Draadloze ruisonderdrukkende koptelefoon",
+    "outOfStock": "Tijdelijk uitverkocht",
+    "price": "¥{price}",
+    "stock": "Voorraad: {count} stuks",
+    "title": "Productenlijst"
+  },
+  "table": {
+    "total": "Totaal {total} records"
+  },
+  "user": {
+    "balance": "Rekening saldo",
+    "changePassword": "Wachtwoord wijzigen",
+    "greeting": "Hallo, {name}",
+    "profile": "Profiel",
+    "unreadMessages": "Ongelezen berichten",
+    "welcomeBack": "Welkom terug, {name}! Laatste login: {time}"
+  }
+}
